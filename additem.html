@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="VFW Project 1" />
+		<meta name="keywords" content="html5, mobile developement, Full Sail University" />
+		<meta name="robots" content="no index, no follow" />
+		<meta name="viewport" content="user-scalable=no, width=device-width" />
+		<title>VFW Project 1-Wish List</title>
+	</head>
+	<body>
+		<h1>Add an Item</h1>
+		<form action="#" method="post">
+			<fieldset>
+				<legend>What's the Occasion?</legend>
+				<ul>
+					<li>Select type of list:
+						<ul>
+							<li> <input type="radio" checked value="Birthday" id="birthday" name="occasion" /><label for="birthday">Birthday</label></li>
+							<li> <input type="radio" value="Christmas" id="christmas" name="occasion" /><label for="whristmas">Christmas</label></li>
+							<li> <input type="radio" value="Wish" id="wish" name="occasion" /><label for="wish">Wish</label></li>
+							<li> <input type="radio" value="Other" id="other" name="occasion" /><label for="other">Other: </label><input type="text" id="eo" /></li>
+						</ul>
+					</li><label for="date">Date: </label><input type="date" placeholder="enter date" id="date" name="occasion" /></li>					
+				</ul>
+			</fieldset>
+			<fieldset>
+				<legend>Item Details:</legend>
+				<ul>
+					<li><label for="name">Name: </label><input type="text" id="item name" name="details" />
+					<li><label for="price">Price: </label><input type="range" id="item price" name="details" />		
+				</ul>
+				<ul>
+				<li><label for="category">Category: </label></li>
+					<select id="category">
+						<option value="fitness">Fitness</option>
+						<option value="electronic">Electronic</option>
+						<option value="clothing">Clothing</option>
+						<option value="furniture">Furniture</option>
+						<option value="other">Other</option>
+					</select>
+				</ul>
+				<ul>
+				<li><label for="add info">Additional Information: </label><textarea id="add info" name="details" placeholder="add additional information"></textarea></li>
+			</fieldset>
+			<input type="submit" value="Add Item!" />
+		</form>
+		<a href="#">Clear Stored Data</a>
+		<a href="#">Display Stored Data</a>
+	</body>
+</html>
